@@ -14,5 +14,7 @@ In order to speed up the process and also to reduce the effort, it is desired to
 
 This project provides both the form designs and a working implementation of mobile app with OCR capability that is quite robust.
 
+## Prerequisite
 
+C.Digital App requires [OpenCV for Android Library](https://opencv.org/android/). The library needs to be imported into the Android Studio project as a module named "opencv".
 
