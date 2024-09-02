@@ -22,7 +22,7 @@ C.Digital App requires [OpenCV for Android Library](https://opencv.org/android/)
 
 1. [Kertas Kebijakan Menata Ulang E-Recap di Pemilu Indonesia Kedepan](https://netgrit.org/kertas-kebijakan-menata-ulang-e-recap-di-pemilu-indonesia-kedepan/)
 2. [USULAN DESAIN FORMULIR C.HASIL UNTUK PEMILU 2024](https://netgrit.org/usulan-desain-formulir-c-hasil-untuk-pemilu-2024/)
-3. [PANDUAN PEMAKAIAN APLIKASI C.DIGITAL](https://netgrit.org/panduan-pemakaian-aplikasi-c-digital/
+3. [PANDUAN PEMAKAIAN APLIKASI C.DIGITAL](https://netgrit.org/panduan-pemakaian-aplikasi-c-digital/)
 
 ## Acknowledgement
 
