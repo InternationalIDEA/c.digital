@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">C.Digital</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">Ubah</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_undo">Reset</string>
+    <string name="action_camera">Kamera</string>
+    <string name="action_about">Info</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- CPlano section names -->
+    <string name="section_1">I. Data Pemilih dan Pengguna Hak Pilih</string>
+    <string name="section_1A">A. Data Pemilih</string>
+    <string name="section_1B">B. Pengguna Hak Pilih</string>
+    <string name="section_2">II. Data Penggunaan Surat Suara</string>
+    <string name="section_3">III. Data Pemilih Disabilitas</string>
+    <string name="section_4_PWP">IV. Perolehan Suara Pasangan Calon Presiden dan Wakil Presiden</string>
+    <string name="section_4_DPR">IV. Perolehan Suara Partai Politik dan Calon</string>
+    <string name="section_4_DPD">IV. Perolehan Suara Calon Anggota DPD</string>
+    <string name="section_4A_DPR">A. Suara Partai Politik</string>
+    <string name="section_4B_DPR">B. Suara Calon</string>
+    <string name="section_4C_DPR">C. Jumlah Suara Partai Politik dan Calon</string>
+    <string name="section_5">V. Suara Sah dan Suara Tidak Sah</string>
+
+    <!-- CPlano field descriptions -->
+    <string name="field_DP1">1. Pemilih dalam DPT</string>
+    <string name="field_DP2">2. Pemilih yang Pindah Memilih</string>
+    <string name="field_DP3">3. Pemilih dengan KTP/Suket</string>
+    <string name="field_DPJ">4. Jumlah Pemilih</string>
+    <string name="field_PHP1">1. Pengguna Hak Pilih dalam DPT</string>
+    <string name="field_PHP2">2. Pengguna Hak Pilih yang Pindah Memilih</string>
+    <string name="field_PHP3">3. Pengguna Hak Pilih dengan KTP/Suket</string>
+    <string name="field_PHPJ">4. Jumlah Pengguna Hak Pilih</string>
+    <string name="field_DPSS1">1. Surat Suara Digunakan</string>
+    <string name="field_DPSS2">2. Surat Suara Dikembalikan Pemilih</string>
+    <string name="field_DPSS3">3. Surat Suara Tidak Digunakan</string>
+    <string name="field_DPSS4">4. Jumlah Seluruh Surat Suara Diterima</string>
+    <string name="field_DPD1">1. Pemilih Disabilitas</string>
+    <string name="field_DPD2">2. Pengguna Hak Pilih Disabilitas</string>
+    <string name="field_SAH">A. Jumlah Suara Sah</string>
+    <string name="field_TIDAK_SAH">B. Jumlah Suara Tidak Sah</string>
+    <string name="field_TOTAL">C. Jumlah Suara Sah dan Suara Tidak Sah</string>
+
+
+</resources>

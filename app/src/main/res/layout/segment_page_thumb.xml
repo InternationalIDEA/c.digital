@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:drawable/editbox_dropdown_light_frame">
+
+
+    <ImageView
+        android:id="@+id/image_thumb"
+        android:layout_width="148dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/text_page_num"
+        android:layout_width="148dp"
+        android:layout_height="32dp"
+        android:layout_gravity="bottom|center"
+        android:background="@color/myblue_500_trans"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:text="TextView"
+        android:textColor="#FEFEFE" />
+
+    <ImageView
+        android:id="@+id/image_upload"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="bottom|right"
+        app:srcCompat="@android:drawable/ic_menu_upload" />
+
+</FrameLayout>

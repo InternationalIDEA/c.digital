@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Petugas"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Nama"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_nama"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Nama" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="NIK"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_nik"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="NIK" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Sertifikat Digital"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_cert"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="64dp"
+                    android:contentDescription="PKCS12 file"
+                    android:editable="false"
+                    android:ems="10" />
+
+                <ImageButton
+                    android:id="@+id/button_browse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    app:srcCompat="?android:attr/actionModeFindDrawable" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Data TPS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Provinsi"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_prov"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Provinsi" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Kab/Kota"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_kab"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Kabupaten/Kota" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Kecamatan"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_kec"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Kecamatan" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Kelurahan"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_kel"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Kelurahan" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Nomor TPS"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/text_tps"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="0" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="OK" />
+
+
+        </LinearLayout>
+
+</ScrollView>

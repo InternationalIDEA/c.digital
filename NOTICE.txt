@@ -1,0 +1,13 @@
+C.Digital 
+Copyright 2023 Reza Lesmana, Netgrit & International IDEA
+
+This product is released under Apache License version 2.0
+
+This product includes the following library/software:
+
+PDFBox-Android by TomRoush
+OpenCV 4.6.0
+BarcodeScanner by DM77
+TensorFlot Lite by Google Brain
+Gson by Google
+

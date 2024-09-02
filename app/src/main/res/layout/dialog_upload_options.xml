@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="344dp"
+        android:layout_height="144dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="24dp"
+            android:text="Pilihan unggah foto C1-Plano"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="24dp"
+            android:text="Kamera"
+            android:textSize="13sp"
+            app:icon="@android:drawable/ic_menu_camera" />
+
+        <Button
+            android:id="@+id/button_gallery"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="24dp"
+            android:text="Galeri"
+            android:textSize="13sp"
+            app:icon="@android:drawable/ic_menu_gallery" />
+    </FrameLayout>
+
+</FrameLayout>
