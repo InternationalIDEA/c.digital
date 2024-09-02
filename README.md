@@ -18,3 +18,12 @@ This project provides both the form designs and a working implementation of mobi
 
 C.Digital App requires [OpenCV for Android Library](https://opencv.org/android/). The library needs to be imported into the Android Studio project as a module named "opencv".
 
+## References
+
+1. [Kertas Kebijakan Menata Ulang E-Recap di Pemilu Indonesia Kedepan](https://netgrit.org/kertas-kebijakan-menata-ulang-e-recap-di-pemilu-indonesia-kedepan/)
+2. [USULAN DESAIN FORMULIR C.HASIL UNTUK PEMILU 2024](https://netgrit.org/usulan-desain-formulir-c-hasil-untuk-pemilu-2024/)
+3. [PANDUAN PEMAKAIAN APLIKASI C.DIGITAL]https://netgrit.org/panduan-pemakaian-aplikasi-c-digital/
+
+## Acknowledgement
+
+C.Digital was developed by Reza Lesmana in cooperation with [Netgrit](https://netgrit.org) and [International IDEA](https://www.idea.int/)
